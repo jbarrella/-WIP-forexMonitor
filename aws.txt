@@ -1,0 +1,9 @@
+ssh -i "forex-ireland.pem" ec2-user@ec2-34-253-228-155.eu-west-1.compute.amazonaws.com
+
+scp -i forex-ireland.pem ./analyzer.js ec2-user@ec2-34-253-228-155.eu-west-1.compute.amazonaws.com:~/
+
+scp -i forex-ireland.pem ec2-user@ec2-34-253-228-155.eu-west-1.compute.amazonaws.com:~/eltool.sh ./
+
+https://www.tradingview.com/symbols/EURUSD/technicals/
+
+https://za.investing.com/currencies/eur-usd-technical
