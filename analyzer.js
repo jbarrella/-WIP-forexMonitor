@@ -126,6 +126,7 @@ function getRates(){
     })
 }
 
+
 function compare(){
     var buy
     var sell
@@ -153,8 +154,8 @@ function compare(){
 }
 
 
-setInterval(getRates, 5000)
-setInterval(filltradingview, 10000)
+setInterval(getRates, 5e3)
+setInterval(filltradingview, 10e3)
 // setInterval(compare, 900e3)
 
 setTimeout(compare, 30e3)
